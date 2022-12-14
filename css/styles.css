@@ -1,0 +1,280 @@
+.container, .container-fluid {
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+    
+  }
+  label{
+    text-align: center;
+  }
+
+  #div-introducao{
+    background-color: rgb(45, 169, 99);
+    color: #FFFF;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+
+  }
+
+  #div-form{
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+    height: 100%;
+    padding-top: 30px;
+    align-items: center;
+  }
+
+  .btn-sm{
+    width: 30%;
+    margin-top: 10px;
+  }
+
+  #container-introducao{
+    background-color: rgb(45, 169, 99);
+    text-align: center;
+  }
+
+
+  h3{
+    text-align: center;
+  }
+  body{
+    background-color: rgb(236, 236, 236);
+    padding-bottom: 100px;
+  }
+
+  h4{
+    text-align: start;
+    color: rgb(57, 57, 57);
+    margin-bottom: 15px;
+    margin-left: 15px; 
+  }
+
+  h5{
+    font-size: 1em;
+  }
+
+  #ganho{
+    color: rgb(37, 227, 37);
+  }
+
+  #gasto{
+    color: red;
+  }
+
+  #investido{
+    color: rgb(29, 86, 230);
+  }
+
+  #guardado{
+    color: rgb(230, 190, 29);
+  }
+
+  #alimentacao{
+    background-color: rgb(35, 163, 0);
+    height: 12px;
+    border-radius: 5px;
+    margin-bottom: 1px;
+    width: 25%;
+    position: relative;
+    top: 13px;
+  }
+
+
+  #lazer{
+    background-color: rgb(159, 0, 0);
+    height: 12px;
+    border-radius: 5px;
+    margin-bottom: 1px;
+    width: 15%;
+    position: relative;
+    top: 13px;
+  }
+
+  #fixos{
+    background-color: rgb(0, 47, 167);
+    height: 12px;
+    border-radius: 5px;
+    margin-bottom: 1px;
+    width: 40%;
+    position: relative;
+    top: 13px;
+  }
+
+  #transporte{
+    background-color: rgb(178, 172, 1);
+    height: 12px;
+    border-radius: 5px;
+    margin-bottom: 1px;
+    width: 20%;
+    position: relative;
+    top: 13px;
+  }
+
+  .percent-blank{
+    background-color: rgb(222, 219, 219);
+    height: 12px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    bottom:22px;
+  }
+
+  .card {
+    background-color: #FFFF;
+    padding: 2px;
+    margin: 0px 5px;
+    height: 70px;
+    width: 23%;
+  }
+
+  .card-header{
+    background-color: #FFFF;
+  }
+
+  .percent{
+    text-align: end;
+  }
+
+  .card-content{
+    background-color: #FFFF;
+    text-align: start;
+  }
+
+  #graph{
+    background-color: #FFFF;
+    
+  }
+
+  .img{
+    background-color: #FFFF;
+    padding: 2px;
+    margin: 0px 5px;
+    height: 70px;
+    width: 27%;
+  }
+
+  .graph{
+    background-color: #FFFF;
+    padding: 2px;
+    margin: 0px 5px;
+    width: 80%;
+    border-radius: 5px;
+    border-color: rgba(214, 211, 211, 0.658);
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  .card .graph{
+    background-color: #FFFF;
+    padding: 2px;
+    margin: 0px 5px;
+    height: 270px;
+    width: 65%;
+  }
+
+  .img{
+   width: 110%;
+   height: 70%;
+   border-color: rgba(214, 211, 211, 0.658);
+   border-style: solid;
+   border-width: 1px;
+   border-radius: 5px;
+
+  }
+  .div-img{
+    margin-left: 0%;
+    padding-left: 0%;
+    
+  }
+
+  #logo{
+    color: rgb(0, 135, 58);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 1.5em;
+  }
+  .header{
+    background-color: #FFFF;
+    height: 45px;
+  }
+
+  .footer{
+    background-color: #FFFF;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    height: 25px;
+    margin-bottom: 0%;
+    padding-right: 0%;
+    text-align: center;
+
+  }
+  p{
+    margin-bottom: 0%;
+    padding-right: 0%;
+  }
+  
+  .row {
+    margin-bottom: 10px
+    /* box-sizing: border-box; */
+  }
+
+  
+  main {
+    background-color: white;
+  }
+  
+  @media screen and (max-width: 1920px) {
+    main {
+      height: 84vh;
+    }
+  }
+  
+  @media screen and (max-width: 980px) {
+    main {
+      height: 60vh;
+    }
+  }
+  
+  @media screen and (max-width: 520px) {
+    main {
+      height: 50vh;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    main {
+      background-color: var(--bs-warning);
+    }
+  }
+
+    
+  form {
+    background-color: white;
+  }
+  
+  @media screen and (max-width: 1920px) {
+    form {
+      height: 84vh;
+    }
+  }
+  
+  @media screen and (max-width: 980px) {
+    form {
+      height: 60vh;
+    }
+  }
+  
+  @media screen and (max-width: 520px) {
+    form {
+      height: 50vh;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    form {
+      background-color: var(--bs-warning);
+    }
+  }
